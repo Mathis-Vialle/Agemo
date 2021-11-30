@@ -136,6 +136,7 @@ header {
 
 .footer__titre {
   text-decoration: underline;
+  font-family: 400;
 }
 
 .footer__icones {
