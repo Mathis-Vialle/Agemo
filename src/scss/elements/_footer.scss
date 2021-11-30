@@ -1,7 +1,3 @@
-footer{
-    background-color: $colorTitle;
-}
-
 .footer__titre{
     color: $colorBackground;
 }
@@ -15,6 +11,8 @@ footer{
     grid-template-columns: repeat(4);
     grid-auto-columns: 25%;
     padding: 5% 10% 5% 10%;
+    background-color: $colorTitle;
+    margin-top: 100%;
 }
 
 .footer__logo{

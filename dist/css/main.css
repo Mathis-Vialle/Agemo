@@ -88,10 +88,6 @@ header {
   transition: 0.3s;
 }
 
-footer {
-  background-color: #170D42;
-}
-
 .footer__titre {
   color: #FAF8FF;
 }
@@ -105,6 +101,8 @@ footer {
   grid-template-columns: repeat(4);
   grid-auto-columns: 25%;
   padding: 5% 10% 5% 10%;
+  background-color: #170D42;
+  margin-top: 100%;
 }
 
 .footer__logo {
@@ -214,6 +212,7 @@ footer {
   width: 100%;
   height: 87vh;
   background-color: black;
+  margin-bottom: 10%;
 }
 
 .section1__video {
