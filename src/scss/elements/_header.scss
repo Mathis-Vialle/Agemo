@@ -16,23 +16,26 @@ header {
 }
 
 .header__logo{
-    width: 25%;
+    height : 5vw;
 }
 
 .header__icone{
     fill: $colorTitle;
 }
 
-.header__icone:hover{
-    fill: white;
-    
-}
-
-.-icone:hover{
-    background-color: $colorAction;
-    border: solid $colorAction;
+.-icone{
     border-radius: 100%;
-    padding: 0.5%;
+    padding: 0.4vw 0 0 0;
+    width: 3vw;
+    height: 3vw;
+    text-align: center;
+    &:hover {
+        background-color: #6970FF;
+        svg {
+            fill : white;
+        }
+        transition: 1s;
+    }
 }
 
 .header__lien{
