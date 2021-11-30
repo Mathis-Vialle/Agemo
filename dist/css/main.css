@@ -92,8 +92,36 @@ footer {
   text-decoration: none;
   background: #6970FF;
   color: white;
-  padding: 1em;
+  padding: 1rem 1.8rem;
   border-radius: 15px;
+}
+.primaryBtn.-fleche {
+  padding: 1rem 0.925rem 1rem 1.8rem;
+  transition: padding 0.3s ease-in-out;
+}
+.primaryBtn.-fleche:hover {
+  padding: 1rem 1.8rem 1rem 1.8rem;
+  transition: padding 0.3s ease-in-out;
+}
+.primaryBtn:hover .fleche__line {
+  transform: scaleX(1.7);
+  transition: transform 0.3s ease-in-out;
+}
+.primaryBtn:hover .fleche__pointe {
+  transform: translateX(14px);
+  transition: transform 0.3s ease-in-out;
+}
+.primaryBtn .fleche {
+  width: 30px;
+}
+.primaryBtn .fleche * {
+  fill: white;
+}
+.primaryBtn .fleche .fleche__line {
+  transition: transform 0.3s ease-in-out;
+}
+.primaryBtn .fleche .fleche__pointe {
+  transition: transform 0.3s ease-in-out;
 }
 
 .primaryBtn:hover {
