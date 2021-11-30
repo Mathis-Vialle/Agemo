@@ -1,11 +1,5 @@
 @use 'sass:math';
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 // Foundation
 @import "foundation/variables";
 @import "foundation/functions";
@@ -21,3 +15,10 @@
 @import "components/nav";
 
 // Utilities
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: $fontFamily;
+}
