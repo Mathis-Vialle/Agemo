@@ -89,7 +89,85 @@ header {
 }
 
 footer {
-  padding: auto;
+  background-color: #170D42;
+}
+
+.footer__titre {
+  color: #FAF8FF;
+}
+
+.footer__lien {
+  color: #FAF8FF;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4);
+  grid-auto-columns: 25%;
+  padding: 5% 10% 5% 10%;
+}
+
+.footer__logo {
+  width: 40%;
+}
+
+.footer__col1 {
+  grid-column: 1;
+}
+
+.footer__col2 {
+  grid-column: 2;
+}
+
+.footer__col3 {
+  grid-column: 3;
+}
+
+.footer__col4 {
+  grid-column: 4;
+}
+
+.footer__lien {
+  display: block;
+  font-family: rustica, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin-top: 7%;
+  text-decoration: none;
+}
+
+.footer__titre {
+  text-decoration: underline;
+}
+
+.footer__icones {
+  display: grid;
+  grid-template-columns: repeat(4);
+  grid-auto-columns: 20%;
+  margin-top: 10%;
+}
+
+.icone__col1 {
+  grid-column: 1;
+}
+
+.icone__col2 {
+  grid-column: 2;
+}
+
+.icone__col3 {
+  grid-column: 3;
+}
+
+.icone__col4 {
+  grid-column: 4;
+}
+
+.icone__reseaux {
+  stroke: white;
+  fill: white;
+  width: 100%;
+  height: 50%;
 }
 
 .primaryBtn {
