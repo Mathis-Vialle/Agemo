@@ -19,9 +19,16 @@ header {
     width: 25%;
 }
 
-.header__icone:hover{
-    color: white;
+.header__icone{
+    fill: $colorTitle;
 }
+
+.header__icone:hover{
+    fill: white;
+    
+}
+
+
 
 .header__lien{
     text-decoration: none;
@@ -29,10 +36,17 @@ header {
     font-weight: 500;
     font-style: normal;
     font-size: 18px;
+    width: 5%;
+    &:hover{
+        background-color: $colorAction;
+        border: solid $colorAction;
+        border-radius: 100%;
+        padding: 0.5%;
+    }
 }
 
 .-principal{
-    background-color: #6970FF;
+    background-color: $colorAction;
     height: 41px;
     width: 154px; 
     display: flex;
@@ -44,5 +58,6 @@ header {
     &:hover {
         background : $horizontalGradient;
         transition: 0.3s;
+        
     }
 }

@@ -45,8 +45,12 @@ header {
   width: 25%;
 }
 
+.header__icone {
+  fill: #170D42;
+}
+
 .header__icone:hover {
-  color: white;
+  fill: white;
 }
 
 .header__lien {
@@ -55,6 +59,13 @@ header {
   font-weight: 500;
   font-style: normal;
   font-size: 18px;
+  width: 5%;
+}
+.header__lien:hover {
+  background-color: #6970FF;
+  border: solid #6970FF;
+  border-radius: 100%;
+  padding: 0.5%;
 }
 
 .-principal {
@@ -66,7 +77,7 @@ header {
   justify-content: center;
   color: #FAF8FF;
   border-radius: 15px;
-  font-size: 16;
+  font-size: 16px;
 }
 .-principal:hover {
   background: linear-gradient(90deg, #6970ff 0%, #fcbfff 100%);
