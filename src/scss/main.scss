@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -13,6 +15,7 @@
 @import "elements/text";
 @import "elements/title";
 @import "elements/input";
+@import "elements/header";
 
 // Components
 @import "components/nav";

@@ -1,0 +1,12 @@
+h1{
+    color: $colorTitle;
+    line-height: pxToRem(21);
+    font-weight: 900;
+    font-size: pxToRem(32);
+}
+
+h2{
+    color: $colorTitle;
+    line-height: pxToRem(34);
+    font-size: pxToRem(26);
+}
