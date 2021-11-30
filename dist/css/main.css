@@ -53,6 +53,13 @@ header {
   fill: white;
 }
 
+.-icone:hover {
+  background-color: #6970FF;
+  border: solid #6970FF;
+  border-radius: 100%;
+  padding: 0.5%;
+}
+
 .header__lien {
   text-decoration: none;
   font-family: rustica, sans-serif;
@@ -60,12 +67,6 @@ header {
   font-style: normal;
   font-size: 18px;
   width: 5%;
-}
-.header__lien:hover {
-  background-color: #6970FF;
-  border: solid #6970FF;
-  border-radius: 100%;
-  padding: 0.5%;
 }
 
 .-principal {

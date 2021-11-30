@@ -28,7 +28,12 @@ header {
     
 }
 
-
+.-icone:hover{
+    background-color: $colorAction;
+    border: solid $colorAction;
+    border-radius: 100%;
+    padding: 0.5%;
+}
 
 .header__lien{
     text-decoration: none;
@@ -37,12 +42,6 @@ header {
     font-style: normal;
     font-size: 18px;
     width: 5%;
-    &:hover{
-        background-color: $colorAction;
-        border: solid $colorAction;
-        border-radius: 100%;
-        padding: 0.5%;
-    }
 }
 
 .-principal{
