@@ -50,6 +50,7 @@ header {
 
 .header__logo {
   width: 25%;
+  margin-top: 5%;
 }
 
 .header__lien {
@@ -75,4 +76,9 @@ header {
   color: #FAF8FF;
   border-radius: 15px;
   font-size: 15px;
+}
+
+.-principal:hover {
+  background: #6970ff;
+  background: linear-gradient(90deg, #6970ff 0%, #fcbfff 100%);
 }
