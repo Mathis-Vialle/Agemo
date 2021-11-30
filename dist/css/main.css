@@ -10,17 +10,24 @@ p {
   color: #2D1C78;
 }
 
-h1 {
+h1, h2, h3 {
   color: #170D42;
+}
+
+h1 {
   line-height: 1.3125rem;
   font-weight: 900;
   font-size: 2rem;
 }
 
 h2 {
-  color: #170D42;
   line-height: 2.125rem;
   font-size: 1.625rem;
+}
+
+h3 {
+  line-height: 1.625rem;
+  font-size: 1.25rem;
 }
 
 header {
@@ -39,6 +46,10 @@ header {
 
 .header__image {
   margin: 9px 32px;
+}
+
+.header__logo {
+  width: 25%;
 }
 
 .header__lien {
