@@ -47,6 +47,6 @@ header{
 }
 
 .-principal:hover{
-    background: rgb(105,112,255);
-    background: linear-gradient(90deg, rgba(105,112,255,1) 0%, rgba(252,191,255,1) 100%);
+    background: $horizontalGradient;
+    transition: 0.3s;
 }

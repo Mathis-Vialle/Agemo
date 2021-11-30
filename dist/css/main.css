@@ -79,6 +79,6 @@ header {
 }
 
 .-principal:hover {
-  background: #6970ff;
   background: linear-gradient(90deg, #6970ff 0%, #fcbfff 100%);
+  transition: 0.3s;
 }
