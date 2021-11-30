@@ -1,5 +1,4 @@
-header{
-    height: 75px;
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,7 +17,6 @@ header{
 
 .header__logo{
     width: 25%;
-    margin-top: 5%;
 }
 
 .header__lien{
@@ -37,16 +35,15 @@ header{
 .-principal{
     background-color: #6970FF;
     height: 41px;
-    width: 154px;
+    width: 154px; 
     display: flex;
     align-items: center;
     justify-content: center;
     color: #FAF8FF;
     border-radius: 15px;
-    font-size: 15px;
-}
-
-.-principal:hover{
-    background: $horizontalGradient;
-    transition: 0.3s;
+    font-size: $rootFontSize;
+    &:hover {
+        background : $horizontalGradient;
+        transition: 0.3s;
+    }
 }
