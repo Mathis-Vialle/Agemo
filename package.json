@@ -14,5 +14,14 @@
     "gulp": "^4.0.2",
     "gulp-sass": "^5.0.0",
     "sass": "^1.43.5"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mathis-Vialle/Agemo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mathis-Vialle/Agemo/issues"
+  },
+  "homepage": "https://github.com/Mathis-Vialle/Agemo#readme"
 }
