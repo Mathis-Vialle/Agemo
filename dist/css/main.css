@@ -45,8 +45,19 @@ header {
   width: 25%;
 }
 
+.header__icone {
+  fill: #170D42;
+}
+
 .header__icone:hover {
-  color: white;
+  fill: white;
+}
+
+.-icone:hover {
+  background-color: #6970FF;
+  border: solid #6970FF;
+  border-radius: 100%;
+  padding: 0.5%;
 }
 
 .header__lien {
@@ -71,6 +82,10 @@ header {
 .-principal:hover {
   background: linear-gradient(90deg, #6970ff 0%, #fcbfff 100%);
   transition: 0.3s;
+}
+
+footer {
+  padding: auto;
 }
 
 .primaryBtn {
