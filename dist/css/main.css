@@ -25,7 +25,6 @@ h3 {
 }
 
 header {
-  height: 75px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,7 +43,10 @@ header {
 
 .header__logo {
   width: 25%;
-  margin-top: 5%;
+}
+
+.header__icone:hover {
+  color: white;
 }
 
 .header__lien {
@@ -53,11 +55,6 @@ header {
   font-weight: 500;
   font-style: normal;
   font-size: 18px;
-}
-
-.header__icone {
-  height: 28px;
-  width: 24px;
 }
 
 .-principal {
@@ -69,9 +66,8 @@ header {
   justify-content: center;
   color: #FAF8FF;
   border-radius: 15px;
-  font-size: 15px;
+  font-size: 16;
 }
-
 .-principal:hover {
   background: linear-gradient(90deg, #6970ff 0%, #fcbfff 100%);
   transition: 0.3s;
