@@ -42,26 +42,22 @@ header {
 }
 
 .header__logo {
-  height: 5vw;
+  width: 25%;
 }
 
 .header__icone {
   fill: #170D42;
 }
 
-.-icone {
-  border-radius: 100%;
-  padding: 0.4vw 0 0 0;
-  width: 3vw;
-  height: 3vw;
-  text-align: center;
+.header__icone:hover {
+  fill: white;
 }
+
 .-icone:hover {
   background-color: #6970FF;
-  transition: 1s;
-}
-.-icone:hover svg {
-  fill: white;
+  border: solid #6970FF;
+  border-radius: 100%;
+  padding: 0.5%;
 }
 
 .header__lien {
@@ -88,6 +84,7 @@ header {
   transition: 0.3s;
 }
 
+<<<<<<< HEAD
 footer {
   padding: auto;
 }
@@ -144,6 +141,8 @@ footer {
   border: none;
 }
 
+=======
+>>>>>>> parent of 9277dd3... Test section1 vidéo
 * {
   box-sizing: border-box;
   margin: 0;
