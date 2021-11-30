@@ -84,6 +84,10 @@ header {
   transition: 0.3s;
 }
 
+footer {
+  padding: auto;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
