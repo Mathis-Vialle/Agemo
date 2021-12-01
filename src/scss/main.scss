@@ -19,6 +19,24 @@
 
 // Utilities
 
+body::-webkit-scrollbar {
+    background-color: $colorTitle;
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: $colorBackground;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: $colorTitle;
+    border: none;
+}
+
+body::-webkit-scrollbar-button {
+    display:none;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;

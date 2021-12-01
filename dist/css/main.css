@@ -222,6 +222,24 @@ header {
   border: none;
 }
 
+body::-webkit-scrollbar {
+  background-color: #170D42;
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #FAF8FF;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #170D42;
+  border: none;
+}
+
+body::-webkit-scrollbar-button {
+  display: none;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
