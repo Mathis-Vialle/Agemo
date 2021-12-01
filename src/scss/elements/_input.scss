@@ -1,0 +1,23 @@
+.formulaire{
+    margin:2%;
+}
+ 
+input{
+width: 762px;
+height: 58px;
+border: 1px solid $colorAction;
+border-radius: 10px;
+margin-top: 10px;
+}
+ 
+//input avec erreur
+.-error{
+    border: 3px solid red;
+    outline: none;
+}
+ 
+//input validé
+.-valid{
+    border: 3px solid green;
+    outline: none;
+}
