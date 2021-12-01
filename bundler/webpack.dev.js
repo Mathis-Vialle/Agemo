@@ -7,11 +7,11 @@ module.exports = {
     plugins: [
         new MiniCssExtractPlugin(),
         new HtmlWebpackPlugin({
-            template: path.resolve(__dirname, './src/index.html')
+            template: path.resolve(__dirname, './../src/index.html')
         })
     ],
     mode: "development",
-    entry: './src/index.js',
+    entry: path.join(__dirname, './../src/index.js'),
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js',
@@ -45,7 +45,7 @@ module.exports = {
     },
     devServer: {
         static: {
-            directory: path.join(__dirname, 'dist'),
+            directory: path.join(__dirname, './../dist'),
         },
         compress: true,
         port: 9000,
