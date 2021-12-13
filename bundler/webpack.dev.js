@@ -7,7 +7,12 @@ module.exports = {
     plugins: [
         new MiniCssExtractPlugin(),
         new HtmlWebpackPlugin({
-            template: path.resolve(__dirname, './../src/index.html')
+            template: path.resolve(__dirname, './../src/index.html'),
+            filename: "index.html"
+        }),
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, './../src/Perso.html'),
+            filename: "Perso.html"
         })
     ],
     mode: "development",
