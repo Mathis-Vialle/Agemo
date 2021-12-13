@@ -1,0 +1,76 @@
+
+.perso__menu{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+    line-height: 3vh;
+}
+
+.nom-etape{
+    margin-left: 5%;
+}
+
+.numero-etape{
+    margin-left: 7%;
+}
+
+.fleche-perso{
+    margin-left: 7%;
+}
+
+.choix-custo{
+    display: flex;
+    text-decoration: none;
+    margin-left: 10%;
+    align-items: center;
+}
+
+.choix-custo h3{
+    margin-left: 10%;
+}
+
+.menu-choix-custo{
+    display: flex;
+    align-items: center;
+    margin-top: 1.5%;
+    justify-content: center;
+}
+
+.perso__btn-terminer a{
+    margin-left: 1%;
+}
+
+.perso__btn-terminer{
+    justify-content: center;
+    display: flex;
+}
+
+.perso__layer2{
+    display: grid;
+    grid-template-columns: repeat(3);
+    grid-auto-columns: 20% 60% 20%;
+    
+}
+
+.perso__menu{
+    grid-column: 1;
+    align-items: center;
+}
+
+.perso__layer2-milieu{
+    grid-column: 2;
+}
+
+.perso__btn-terminer{
+    grid-column: 3;
+}
+
+.perso__btn-terminer a{
+    margin-left: 2%;
+}
+
+.perso-reset{
+    margin-top: 1%;
+    margin-right: 10%;
+    width: 7%;
+}
