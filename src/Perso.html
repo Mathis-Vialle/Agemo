@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//unpkg.com/alpinejs" defer></script>
     <link rel="stylesheet" href="https://use.typekit.net/gkn0fqp.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
@@ -12,7 +13,7 @@
     <title>Agemo - Personnalise ta sneaker !</title>
 </head>
 
-<body>
+<body onload="test();">
     <header class="header">
         <div class="header__image"><img class="header__logo" src="./assets/img/LogoHeader.svg" alt="logo agemo"></div>
         <nav class="header__navigation">
@@ -45,13 +46,40 @@
 
     <main>
 
-       
+        <div class="timeline">
+            <span class="timeline__point -actif">
+                <img src="./assets/Icones/eclipse.svg" alt="ellipse étape">
+            </span>
+            <span class="timeline__point -inactif">
+                <img src="./assets/Icones/eclipse.svg" alt="ellipse étape">
+            </span>
+            <span class="timeline__point -inactif">
+                <img src="./assets/Icones/eclipse.svg" alt="ellipse étape">
+            </span>
+            <span class="timeline__point -inactif">
+                <img src="./assets/Icones/eclipse.svg" alt="ellipse étape">
+            </span>
+            <span class="timeline__point -inactif">
+                <img src="./assets/Icones/eclipse.svg" alt="ellipse étape">
+            </span>
+            <span class="timeline__point -inactif">
+                <img src="./assets/Icones/eclipse.svg" alt="ellipse étape">
+            </span>
+            <span class="timeline__point -inactif">
+                <img src="./assets/Icones/eclipse.svg" alt="ellipse étape">
+            </span>
+            <span class="timeline__point -inactif">
+                <img src="./assets/Icones/eclipse.svg" alt="ellipse étape">
+            </span>
+            <span class="timeline__point -inactif">
+                <img src="./assets/Icones/eclipse.svg" alt="ellipse étape">
+            </span>
+            <span class="timeline__point -inactif">
+                <img src="./assets/Icones/eclipse.svg" alt="ellipse étape">
+            </span>
+            <hr>
+        </div>
 
-
-
-
-
-        
     </main>
 
     <footer class="footer">
@@ -160,6 +188,9 @@
         </div>
     </footer>
 
+    <img src="assets/Icones/Etoile.svg" alt="test" style="display: none;">
 </body>
+<script src="test.js"></script>
+
 
 </html>
