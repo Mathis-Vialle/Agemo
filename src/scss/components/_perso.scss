@@ -1,0 +1,110 @@
+
+.perso__menu{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+    line-height: 3vh;
+}
+
+.nom-etape{
+    margin-left: 5%;
+}
+
+.numero-etape{
+    margin-left: 7%;
+}
+
+.fleche-perso{
+    margin-left: 7%;
+}
+
+.choix-custo{
+    display: flex;
+    text-decoration: none;
+    margin-left: 10%;
+    align-items: center;
+}
+
+.choix-custo h3{
+    margin-left: 10%;
+}
+
+.menu-choix-custo{
+    display: flex;
+    align-items: center;
+    margin-top: 1.5%;
+    justify-content: center;
+}
+
+.perso__btn-terminer a{
+    margin-left: 1%;
+}
+
+.perso__btn-terminer{
+    justify-content: center;
+    display: flex;
+}
+
+.perso__layer2{
+    display: grid;
+    grid-template-columns: repeat(3);
+    grid-auto-columns: 20% 60% 20%;
+    
+}
+
+.perso__menu{
+    grid-column: 1;
+    align-items: center;
+}
+
+.perso__layer2-milieu{
+    grid-column: 2;
+}
+
+.perso__btn-terminer{
+    grid-column: 3;
+}
+
+.perso__btn-terminer a{
+    margin-left: 2%;
+}
+
+.perso-reset{
+    margin-top: 1%;
+    margin-right: 10%;
+    width: 7%;
+}
+.timeline {
+    width : 70%;
+    margin: auto;
+    display: flex;
+    align-items:flex-start;
+    hr {
+        width: 63%;
+        position: absolute;
+        margin: 0.62% 0 0 4%;
+        border: 1px solid black;
+        background-color: black;
+        z-index: -1;
+    }
+}
+
+.timeline__point {
+    margin: auto;
+    margin-top: 0;
+    img {
+        border-left: 4px solid white;
+        border-right: 4px solid white;
+        border-radius: 50%;
+        background-color: white;
+    }
+}
+
+.-inactif {
+    margin-top: 0.4% ;
+}
+
+.-actif img{
+    margin-left: 20% ;
+    margin-top: 1%;
+}
