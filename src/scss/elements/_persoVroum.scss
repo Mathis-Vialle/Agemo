@@ -1,0 +1,108 @@
+.perso__choix {
+    display: flex;
+    justify-content: center;
+}
+
+.choix__col {
+
+    margin-right: 3%;
+}
+
+//Couleur 1
+
+.col__img1 {
+    width: 5vh;
+    height: 5vh;
+    border-radius: 100%;
+    background-color: #FFCDFE;
+    margin: auto;
+}
+
+.col__txt1 {
+    @include col__txt;
+}
+
+//Couleur 2
+é
+.col__img2 {
+    width: 5vh;
+    height: 5vh;
+    border-radius: 100%;
+    background-color: #2B2A2A;
+    margin: auto;
+}
+
+.col__txt2 {
+    @include col__txt;
+}
+
+//Couleur 3
+
+.col__img3 {
+    width: 5vh;
+    height: 5vh;
+    border-radius: 100%;
+    background: #F1E8E8;
+    box-shadow: 0vh 0vh 1vh rgba(0, 0, 0, 0.25);
+    margin: auto;
+}
+
+.col__txt3 {
+    @include col__txt;
+}
+
+//Couleur 4
+
+.col__img4 {
+    width: 5vh;
+    height: 5vh;
+    border-radius: 100%; 
+    background: #5A8CD8;
+    margin: auto;
+}
+
+.col__txt4 {
+    @include col__txt;
+}
+
+//Couleur 5
+
+.col__img5 {
+    width: 5vh;
+    height: 5vh;
+    border-radius: 100%;
+    background: #9464D0;
+    margin: auto;
+}
+
+.col__txt5 {
+    @include col__txt;
+}
+
+//Couleur 6
+
+.col__img6 {
+    width: 5vh;
+    height: 5vh;
+    border-radius: 100%;
+    background-color:#64D0A3;
+    margin: auto;
+}
+
+.col__txt6 {
+    @include col__txt;
+}
+
+//Couleur 7
+
+.col__img7 {
+    width: 5vh;
+    height: 5vh;
+    border-radius: 100%;
+    background-color: #E48C4B;
+    margin: auto;
+}
+
+.col__txt7 {
+    @include col__txt;
+}
