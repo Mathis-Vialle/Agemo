@@ -1,0 +1,39 @@
+.timeline {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    &::after{
+        content: "";
+        width: 100%;
+        border-top: 1px solid black;
+        display: block;
+        position: absolute;
+        top: math.div($size, 2) + px;
+        z-index: -9999;
+    }
+    &__item {
+        &::before {
+            content: "";
+            width: $size + px;
+            height: $size + px;
+            display: block;
+            margin: 0 auto 0.5rem;
+            background-color: white;
+            background-image: url(../assets/Icones/eclipse.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        span {
+            opacity: 0;
+        }
+        &.-active {
+            &::before {
+                background-image: url(../assets/Icones/Etoile.svg);
+            }
+            span {
+                opacity: 1;
+            }
+        }
+    }
+}
