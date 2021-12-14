@@ -21,7 +21,8 @@
 .choix-custo{
     display: flex;
     text-decoration: none;
-    margin-left: 10%;
+    justify-content: center;
+    width: 25%;
     align-items: center;
 }
 
@@ -70,7 +71,7 @@
 }
 
 .perso-reset{
-    margin-top: 1%;
+    margin-top: 5%;
     margin-right: 10%;
     width: 7%;
 }
@@ -142,15 +143,11 @@
     background:$bleuVert;
     padding:0px 10px;
     border-radius:1.2vw;
+    border-bottom-left-radius: initial;
     width:12vw;
-    height: 6vh;
+    height: 5vh;
 }
 
-.infoPartagePrix_inspiration::after{
-content:""; 
-border-right:2vmin solid transparent;
-border-top: 2vmin solid $bleuVert;
-}
 
 
 /* partie inspiration */
