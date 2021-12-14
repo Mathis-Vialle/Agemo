@@ -1,0 +1,67 @@
+.modele__card{
+    width: 25vw;
+    height: 25vw;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 1px solid $bleuVert;
+    border-radius: 5%;
+}
+
+.modele__card:hover{
+    background: $bleuVert;
+    color: white;
+}
+
+.modele__card h1{
+    font-weight: 600;
+}
+
+.modele__infos-hover{
+    margin: 8%;
+}
+
+
+.modele__infos-hover p{
+    color: white;
+    margin-bottom: 15%;
+}
+
+.modele__infos{
+    margin-left: 8%;
+    margin-top: 8%;
+}
+
+.choix-modele{
+    display: grid;
+    grid-template-columns: repeat(2);
+    grid-auto-columns: 45%;
+    grid-column-gap: 5%;
+    grid-row-gap: 5%; 
+    margin-left: 2.5%;
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+.modele__col1{
+    grid-column: 1;
+    background-image: url("../assets/img/agmid4.jpg");
+    float: right;
+    margin-left: 43%;
+}
+
+.modele__col2{
+    grid-column: 2;
+    background-image: url("../assets/img/agmid5.jpg");
+}
+
+.modele__col3{
+    grid-column: 1;
+    background-image: url("../assets/img/agone163.jpg");
+    float: right;
+    margin-left: 43%;
+}
+
+.modele__col4{
+    grid-column: 2;
+    background-image: url("../assets/img/agrun808.jpg");
+}
