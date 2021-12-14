@@ -151,11 +151,15 @@
 
 
 /* partie inspiration */
-.inspiPerso{
+#inspiPerso{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     margin-top: 5%;
+}
+
+.bulle{
+    text-decoration: none;
 }
 
 .inspiPerso_texte{
