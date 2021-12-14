@@ -163,17 +163,17 @@
 }
 
 .inspiPerso_texte{
-    display: flex;
     flex-direction: column;
     width: 16vw;
 }
 
 .inspiPerso_paragraphe{
-    margin: 2vmin auto;
+    margin-bottom: 10%;
+    margin-top: 5%;
 }
 
 .inspiPerso_btn{
-    width: 92%;
+    margin-top: 2%;
     padding: 1rem 0.925rem 1rem 1.8rem;
     transition: width 0.5s ease-in-out;
 }

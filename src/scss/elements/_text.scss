@@ -1,12 +1,11 @@
 p{
-    font-size: pxToRem(16);
-    
+    font-size: 1vw;
     color: $colorText;
     font-weight: 300;
 }
 
 label,input{
-    font-size: pxToRem(16);
+    font-size: 1vw;
     line-height: pxToRem(21);
     font-weight: 300;
     color: $colorText;

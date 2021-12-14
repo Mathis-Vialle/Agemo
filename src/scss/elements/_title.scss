@@ -33,17 +33,18 @@ h1,h2,h3{
 }
 
 h1{
-    
     font-weight: 900;
-    font-size: pxToRem(32);
+    font-size: 2vw;
 }
 
 h2{
-    
-    font-size: pxToRem(26);
+    font-size: 1.625vw;
 }
 
 h3{
-    
-    font-size: pxToRem(20);
+    font-size: 1.25vw;
+}
+
+h4{
+    font-size: 1.1vw;
 }
