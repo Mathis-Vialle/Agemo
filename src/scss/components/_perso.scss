@@ -125,14 +125,14 @@
 
 .informations_prix{
     line-height: pxToRem(32);
-    font-size: pxToRem(24);
+    font-size: 1.25vw;
     font-weight: 700;
     color: $colorTitle;
 }
 
 .inspiration_texte{
     font-weight: 500;
-    font-size: pxToRem(15);
+    font-size: 1vw;
     line-height: pxToRem(47);
     color: white;
     text-align: center;

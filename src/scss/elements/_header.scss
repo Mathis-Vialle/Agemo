@@ -43,7 +43,7 @@ header {
     font-family: $fontFamily; 
     font-weight: 500;
     font-style: normal;
-    font-size: 18px;
+    font-size: 1vw;
 }
 
 .-principal{
@@ -55,7 +55,7 @@ header {
     justify-content: center;
     color: #FAF8FF;
     border-radius: 15px;
-    font-size: $rootFontSize + px;
+    font-size: 1vw;
     &:hover {
         background : $horizontalGradient;
         transition: 0.3s;
