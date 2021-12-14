@@ -12,6 +12,10 @@ label,input{
     padding-left: 20px;
     margin-left: 10px;
 }
+
+label{
+    padding-left: 0;
+}
  
 .formulaire__msgError{
     font-weight: 300;
