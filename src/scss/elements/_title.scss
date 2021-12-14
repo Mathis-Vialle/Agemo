@@ -6,12 +6,6 @@ h1,h2,h3{
     margin: 10%;
 }
 
-.titlePage p, .titlePage h1 {
-    font-size: 2.8vw; 
-    font-weight: 900;
-    line-height: 0em;
-}
-
 .titlePage__1 {
     color: $colorActionSecond;
     margin-left: 0px;
@@ -30,9 +24,6 @@ h1,h2,h3{
     margin-top: -3px;
 }
 
-//______
-
-
 h1{
     font-weight: 900;
     font-size: 2vw;
@@ -49,3 +40,15 @@ h3{
 h4{
     font-size: 1.1vw;
 }
+
+// Styles des titres jolis
+
+.titlePage p, .titlePage h1 {
+    font-size: 2.8vw; 
+    font-weight: 900;
+    line-height: 0em;
+}
+
+
+
+// fin des titres jolis
