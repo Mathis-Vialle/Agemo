@@ -1,3 +1,33 @@
+.titlePage {
+    margin: 10%;
+}
+
+.titlePage>p {
+    font-size: pxToRem(45); 
+    font-weight: 900;
+    line-height: 0em;
+}
+
+.titlePage__1 {
+    color: $colorActionSecond;
+    margin-left: 0px;
+    margin-top: -6px;
+}
+
+.titlePage__2 {
+    color: $bleuFluo;
+    margin-left: 3px;
+    margin-top: -3px;
+}
+
+.titlePage__3 {
+    color: $colorTitle;
+    margin-left: 6px;
+    margin-top: -3px;
+}
+
+//______
+
 h1,h2,h3{
     color: $colorTitle;
 }
