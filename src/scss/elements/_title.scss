@@ -1,8 +1,28 @@
+h1,h2,h3{
+    color: $colorTitle;
+}
+
+h1{
+    
+    font-weight: 900;
+    font-size: pxToRem(32);
+}
+
+h2{
+    
+    font-size: pxToRem(26);
+}
+
+h3{
+    
+    font-size: pxToRem(20);
+}
+
 .titlePage {
     margin: 10%;
 }
 
-.titlePage>p {
+.titlePage>p, .titlePage>h1 {
     font-size: pxToRem(45); 
     font-weight: 900;
     line-height: 0em;
@@ -28,9 +48,6 @@
 
 //______
 
-h1,h2,h3{
-    color: $colorTitle;
-}
 
 h1{
     font-weight: 900;

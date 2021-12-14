@@ -13,7 +13,11 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname, './../src/Perso.html'),
             filename: "Perso.html"
-        })
+        }),
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, './../src/connexion.html'),
+            filename: "connexion.html"
+        }),
     ],
     mode: "development",
     entry: path.join(__dirname, './../src/index.js'),

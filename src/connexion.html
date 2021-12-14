@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//unpkg.com/alpinejs" defer></script>
     <link rel="stylesheet" href="https://use.typekit.net/gkn0fqp.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
@@ -12,15 +13,15 @@
     <title>Agemo - Personnalise ta sneaker !</title>
 </head>
 
-<body>
+<body onload="test();">
     <header class="header">
-        <a href="index.html" class="header__image"><img class="header__logo" src="./assets/img/LogoHeader.svg" alt="logo agemo"></a>
+        <div class="header__image"><img class="header__logo" src="./assets/img/LogoHeader.svg" alt="logo agemo"></div>
         <nav class="header__navigation">
-            <a class="header__lien -principal" href="Perso.html">Personnaliser</a>
+            <a class="header__lien -principal" href="#">Personnaliser</a>
             <a class="header__lien" href="#">Collaborations</a>
             <a class="header__lien" href="#">Communauté</a>
             <a class="header__lien" href="#">Engagements</a>
-            <a class="header__lien -icone" href="connexion.html">
+            <a class="header__lien -icone" href="#">
                 <svg class="header__icone" width="28" height="31" viewBox="0 0 28 31" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -45,28 +46,14 @@
 
     <main>
 
-        <div class="section1">
-            <video class="section1__video" autoplay loop muted>
-                <source src="./assets/video/test youtube.mp4" type=video/mp4>
-            </video>
-            <h1 class="section1__titre1"></h1>
-            <h2 class="section1__titre -shadow1"></h2>
-            <h2 class="section1__titre -shadow2"></h2>
+        <div class="zoneConnexion">
+            <div class="zoneConnexion__titre || titlePage">
+                <h1 class="titlePage__1">Connexion</h1>
+                <p class="titlePage__2">Connexion</p>
+                <p class="titlePage__3">Connexion</p>
+            </div>
+            
         </div>
-
-
-        <a class="primaryBtn" href="">Bouton</a>
-        <a class="primaryBtn -fleche" href="">Bouton
-            <span><svg class="fleche" version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 42 16.1"
-                    enable-background="new 0 0 42 16.1" xml:space="preserve">
-                    <path class="fleche__line" fill-rule="evenodd" clip-rule="evenodd" fill="#170D42"
-                        d="M24.4,7.1H5c-0.6,0-1,0.4-1,1s0.4,1,1,1h19.4" />
-                    <path class="fleche__pointe" fill-rule="evenodd" clip-rule="evenodd" fill="#170D42"
-                        d="M24.4,9.1l-5.9,5.3c-0.4,0.4-0.4,1-0.1,1.4s1,0.4,1.4,0.1l7.8-7
-               c0.2-0.2,0.3-0.5,0.3-0.7c0-0.3-0.1-0.6-0.3-0.7l-7.8-7.2c-0.4-0.4-1-0.3-1.4,0.1s-0.3,1,0.1,1.4l5.9,5.3" />
-                </svg></span>
-        </a>
 
     </main>
 
@@ -177,5 +164,7 @@
     </footer>
 
 </body>
+<script src="test.js"></script>
+
 
 </html>
