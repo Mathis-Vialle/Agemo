@@ -6,8 +6,8 @@ h1,h2,h3{
     margin: 10%;
 }
 
-.titlePage>p, .titlePage>h1 {
-    font-size: pxToRem(45); 
+.titlePage p, .titlePage h1 {
+    font-size: 2.8vw; 
     font-weight: 900;
     line-height: 0em;
 }
