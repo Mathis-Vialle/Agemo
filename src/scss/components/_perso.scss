@@ -49,7 +49,7 @@
     display: grid;
     grid-template-columns: repeat(3);
     grid-auto-columns: 20% 60% 20%;
-    
+    margin-bottom: 5%;
 }
 
 .perso__menu{
@@ -158,6 +158,7 @@ border-top: 2vmin solid $bleuVert;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 5%;
 }
 
 .inspiPerso_texte{
@@ -179,4 +180,8 @@ border-top: 2vmin solid $bleuVert;
 .inspiPerso_btn:hover{
     transition: width 0.5s ease-in-out;
     width: 100%;
+}
+
+.inspiPerso_image{
+    width: 40%;
 }
