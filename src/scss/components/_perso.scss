@@ -108,3 +108,75 @@
     margin-left: 20% ;
     margin-top: 1%;
 }
+/* partie infoPartagePrix */
+.infoPartagePrix{
+    display: flex;
+    justify-content: space-between;
+    margin: 2vmax;
+}
+
+.infoPartagePrix_informations{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20vw;
+}
+
+.informations_prix{
+    line-height: pxToRem(32);
+    font-size: pxToRem(24);
+    font-weight: 700;
+    color: $colorTitle;
+}
+
+.inspiration_texte{
+    font-weight: 500;
+    font-size: pxToRem(15);
+    line-height: pxToRem(47);
+    color: white;
+    text-align: center;
+}
+
+/*test bulle */
+.infoPartagePrix_inspiration{
+    background:$bleuVert;
+    padding:0px 10px;
+    border-radius:1.2vw;
+    width:12vw;
+    height: 6vh;
+}
+
+.infoPartagePrix_inspiration::after{
+content:""; 
+border-right:2vmin solid transparent;
+border-top: 2vmin solid $bleuVert;
+}
+
+
+/* partie inspiration */
+.inspiPerso{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.inspiPerso_texte{
+    display: flex;
+    flex-direction: column;
+    width: 16vw;
+}
+
+.inspiPerso_paragraphe{
+    margin: 2vmin auto;
+}
+
+.inspiPerso_btn{
+    width: 92%;
+    padding: 1rem 0.925rem 1rem 1.8rem;
+    transition: width 0.5s ease-in-out;
+}
+
+.inspiPerso_btn:hover{
+    transition: width 0.5s ease-in-out;
+    width: 100%;
+}
