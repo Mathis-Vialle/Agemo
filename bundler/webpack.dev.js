@@ -22,6 +22,10 @@ module.exports = {
             template: path.resolve(__dirname, './../src/modeles.html'),
             filename: "modeles.html"
         }),
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, './../src/collaborations.html'),
+            filename: "collaborations.html"
+        }),
     ],
     mode: "development",
     entry: path.join(__dirname, './../src/index.js'),
