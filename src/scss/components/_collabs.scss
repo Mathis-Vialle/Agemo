@@ -70,8 +70,13 @@
 .collab__plus{
     color: $colorAction;
     display: block;
+    font-size: 1vw;
 }
 
 .collab__infos .primaryBtn{
     margin-top: 5%;
+}
+
+.collab__infos img{
+    width: 80%;
 }
