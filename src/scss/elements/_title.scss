@@ -60,3 +60,42 @@ h4{
 
 
 // fin des titres jolis
+
+//titres jolis sur deux lignes
+
+.titlePage2 p, .titlePage2 h1 {
+    font-size: 2.8vw; 
+    font-weight: 900;
+    line-height: 0em;
+    width: 85%;
+    margin-left: 7.5%;
+}
+
+.titlePage2 {
+    width: 31%;
+    height: 25vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 7vh;
+    margin-left: 6%;
+}
+
+.titlePage2__1 {
+    color: $colorActionSecond;
+    margin-left: 0px;
+    margin-top: -6px;
+}
+
+.titlePage2__2 {
+    color: $bleuFluo;
+    margin-left: 3px;
+    margin-top: -3px;
+}
+
+.titlePage2__3 {
+    color: $colorTitle;
+    margin-left: 6px;
+    margin-top: -3px;
+}
+
+//fin des titres jolis sur deux lignes
