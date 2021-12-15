@@ -95,3 +95,20 @@
 .BtnVariant-modeles:hover{
     background: $horizontalGradientVariant;
 }
+
+
+// Bouton compte
+
+.primaryBtnCompte{
+    text-decoration: none;
+    font-size: 1.2vw;
+    display: inline-block;
+    background: $colorAction;
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: 15px;
+}
+
+.primaryBtnCompte:hover{
+    background: $horizontalGradient;
+}
