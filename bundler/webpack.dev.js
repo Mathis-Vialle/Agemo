@@ -30,6 +30,10 @@ module.exports = {
             template: path.resolve(__dirname, './../src/galerie.html'),
             filename: "galerie.html"
         }),
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, './../src/compte.html'),
+            filename: "compte.html"
+        }),
     ],
     mode: "development",
     entry: path.join(__dirname, './../src/index.js'),
